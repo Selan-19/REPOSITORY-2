@@ -6,4 +6,9 @@
 	background-color: #0275D8;
 	padding: 10px;
 	
+/* ---- Ajuste de tamanho das imagens ---- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
