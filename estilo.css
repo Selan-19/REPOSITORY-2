@@ -7,12 +7,11 @@
   padding: 10px;
 }
 
-/* Seleciona as imagens dentro de .titulo-clientes */
+/* Seleciona imagens dentro de .titulo-clientes */
 .titulo-clientes img {
   max-width: 100%;    /* não ultrapassa o contêiner */
   height: auto;       /* mantém proporção */
-  display: block;     /* remove espaço extra embaixo */
+  display: block;     /* remove espaço embaixo */
   object-fit: contain;/* mantém proporção dentro do limite */
-  max-height: 200px;  /* limite de altura, ajuste conforme necessário */
+  max-height: 200px;  /* limite de altura para não estourar */
 }
-
