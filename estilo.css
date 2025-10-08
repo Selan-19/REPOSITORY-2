@@ -5,10 +5,10 @@
 .titulo-clientes {
   background-color: #0275D8;
   padding: 10px;
-}
-
 .titulo-clientes img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  max-width: 100%;  /* nunca ultrapassa o contêiner */
+  height: auto;     /* mantém proporção */
+  display: block;   /* remove espaço embaixo da imagem */
+  object-fit: contain; /* faz a imagem caber sem cortar */
+  max-height: 200px;   /* limite de altura, ajuste conforme necessário */
 }
